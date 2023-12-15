@@ -1,0 +1,512 @@
+
+body{
+           font-family: Muli;
+            font-size: 16px;
+            font-weight: 400;
+            background-color: #E5E5E5;
+        }
+        /* remove the original arrow */
+    select.form-control {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        /* no standardized syntax available, no ie-friendly solution available */
+        background-color: white;
+    background-image:
+    }
+
+.username{
+    text-transform: capitalize;
+}
+select + i.fa {
+    float: right;
+    margin-top: -30px;
+    margin-right: 5px;
+    /* this is so when you click on the chevron, your click actually goes on the dropdown menu */
+    
+    pointer-events: none;
+    /* everything after this is just to cover up the original arrow */
+    /* (for browsers that don't support the syntax used above) */
+    
+    background-color: #fff;
+    padding-right: 5px;
+}
+.modal-body{
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+        .pink{
+            color: #00b085;
+        }
+        .tagline p{
+            font-size: 3em
+        }
+        .tagline h1{
+            font-size: 4em;color:#00b085;
+        }
+         h2{
+                        font-size: 30px;
+
+                        font-family: Muli;
+                        font-weight: 700;
+                        color: #21345F;
+
+                    }
+        ul.nav a{
+            color: #fff;
+            background-color: transparent;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        ul.nav a:hover,ul.nav li.active a,ul.nav li.active a:hover{
+            background-color: transparent;
+            color: #fff;
+        }
+        .back{
+            background: #333 url('../images/back.jpg') no-repeat fixed;
+            background-size: cover;
+            background-position: center top;
+            color: #fff;
+            text-shadow: 1px 1px 2px #000;
+            padding-top: 40px;
+        }
+        .back2{
+            background: #333 url('../images/backnew.jpg') no-repeat fixed;
+            background-size: cover;
+            background-position: center top;
+        }
+        .back a.btn-link{
+            color: #fff;
+            text-shadow: 0px 0px 5px #000;
+        }
+        .pad50{
+            padding-top: 50px;
+            padding-bottom:50px;
+        }
+        .btn-round{
+            border-radius: 30px;
+            background-color: #00b085;
+            color: #fff;
+        }
+        .btn-round2{
+            border-radius: 30px;
+            background-color: #3D4B65;
+            color: #ddd;
+        }
+        .btn-round2:hover{
+            color: #fff;
+        }
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#333;
+}
+.footer a{
+    transition: padding 0.8s;
+    display: block;
+    color: #333;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.footer a:hover{
+    transition: padding 0.4s;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.footer .row>div{
+    padding:10px;
+}
+         @media (min-width: 1200px) {
+.product{
+        background-color: #fff;
+         margin-left: auto;
+         margin-right:auto;
+         border:2px solid #f4f4f4;
+        margin: 0px !important;
+        /*background-image: url(../images/logo.png);
+         background-position: bottom left;
+         background-repeat: no-repeat;
+         background-size: 60px;
+        */
+
+    }
+    .product + h4{
+        height: 70px;
+    }
+     .product>img{
+         background-color: #fff;
+    }
+     img.logool{
+         position: absolute;
+        width: 80px !important;
+        top: 160px;
+        left: 25px;
+        margin: auto;
+        z-index: 1;
+        background-color: transparent;
+        opacity: 0.8;
+    }
+}
+
+/*md screen*/
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+ .product{
+        background-color: #fff;
+         margin-left: auto;
+         margin-right:auto;
+         border:2px solid #f4f4f4;
+        margin: 0px !important;
+        /*background-image: url(../images/logo.png);
+         background-position: bottom left;
+         background-repeat: no-repeat;
+         background-size: 60px;
+        */
+    }
+    .product + h4{
+        height: 70px;
+    }
+     .product>img{
+         background-color: #fff;
+    }
+     img.logool{
+         position: absolute;
+        width: 80px !important;
+        top: 160px;
+        left: 25px;
+        margin: auto;
+        z-index: 1;
+        background-color: transparent;
+        opacity: 0.8;
+    }
+}
+/*sm screen*/
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    .product{
+        background-color: #fff;
+         margin-left: auto;
+         margin-right:auto;
+         border:2px solid #f4f4f4;
+        margin: 0px !important;
+        /*background-image: url(../images/logo.png);
+         background-position: bottom left;
+         background-repeat: no-repeat;
+         background-size: 60px;
+        */
+    }
+    .product + h4{
+        height: 70px;
+    }
+     .product>img{
+         background-color: #fff;
+    }
+     img.logool{
+         position: absolute;
+        width: 80px !important;
+        top: 160px;
+        left: 25px;
+        margin: auto;
+        z-index: 1;
+        background-color: transparent;
+        opacity: 0.8;
+    }
+}
+
+ @media screen and (max-width: 767px) {
+     .back{
+        padding-top: 0px;
+     }
+     h4.itemtitle{
+        font-size: 12px;
+     }
+     h2.itemheading{
+        text-align: left !important;
+        font-size: 12px;
+        border-top: 1px solid #f4f4f4;
+        padding-top: 15px;
+        margin-top: 10px;
+     }
+     .itemwell div.well{
+        margin-bottom: 5px;
+        border-radius: 5px !important;
+        border: none;
+     }
+    .tagline p{
+            font-size: 1.6em
+        }
+        .tagline h1{
+            font-size: 2em;color:#00b085;
+        }
+ .product{background-color: #fff;
+    margin-left: auto;
+    margin-right:auto;
+    border:2px solid #ddd;margin: f4f4f4;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-image: url(../images/logo.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 60px;*/
+
+    }
+    .product>img{
+        background-color: #fff;
+    }
+    img.logool{
+            position: absolute;width: 80px;top: 160px;left: 25px;margin: auto;z-index: 1;background-color: transparent;opacity: 0.8;
+        }
+        
+}
+.cf {
+  position:relative;
+  margin:0 auto;
+}
+
+.cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.cf img.top:hover {
+  opacity:0;
+}
+/*.btn-success{
+    background-color: #00B085 !important;
+}*/
+.signboard{
+    display: none;
+}
+.item .well{
+    cursor: pointer;
+}
+.menutray td a{
+                   
+                   padding: 10px 30px;
+font-style: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+/* Grey */
+color: #ECEEF2;
+border-right: 3px solid #21345F;
+
+
+                  }
+                  .menutray td a:hover,.menutray td a.active{
+                    background: rgba(236, 238, 242,0.05);
+                    border-right: 3px solid #F17336;
+                    color: #F17336;
+                    text-decoration: none;
+                  }
+                  .menutray td a:hover img{
+                    color:  #F17336;
+                  }
+                  .menutray td,.menutray th,.menutray tr{
+                    border:none !important;
+                    padding: 0 !important;
+                    padding-top:5px;
+                    padding-bottom:5px;
+                  }
+
+                  
+
+.menutray .media{
+    color: #ECEEF2;
+
+}
+.menutray .media img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.menutray .media a{
+    color: #ECEEF2;
+
+}
+
+.sideline{
+                        position: fixed;
+                        width: 15px;
+                        height: 100%;
+                        top:0;
+                        left: 0;
+                        z-index: 5;
+                    }
+                    .form-control{
+                        border: none;
+                        border-radius: 0 !important;
+                        border-bottom: 2px solid #F37133;
+                    }
+                    
+                    
+
+                    .btn-primary{
+                        border-radius: 2px;
+                        box-shadow: 2px 2px 4px #666;
+                        background: #1B3281;
+                    }
+                    .panel{
+                        background: #FFFFFF;
+                        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+                        /*border-radius: 20px !important;*/
+                        border: none;
+                    }
+                    
+                    
+                    .cpointer{
+                        cursor: pointer;
+                    }
+                    select.input-lg{
+                        padding-top: 2px;
+                    }
+                     .btn,.btn:hover,.btn:active{
+                        outline: none !important;
+                    }
+
+                     .panel-default{
+                        background: #FEFEFE;
+                        /*border: 1px solid rgba(101, 78, 249, 0.3) !important;*/
+                        box-sizing: border-box;
+                        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+                       /* border-radius: 20px !important;
+                        border-top-left-radius: 5px !important; */
+                        margin-bottom: 20px !important;
+                    }
+                    .panel-default .panel-body{
+                       /* border-radius: 20px !important;
+                        border-top-left-radius: 5px !important; */
+                    }
+
+
+                        table.table2 {
+                          /*border: 6px solid #FFFFFF;*/
+                          background-color: #F6F7F9;
+                          width: 100%;
+                          text-align: center;
+                          border-collapse: collapse;
+                        }
+                        table.table2 td, table.table2 th {
+                          /*border: 6px solid #FFFFFF;*/
+                          padding: 14px 0px;
+                          min-width: 80px;
+                          white-space: nowrap;
+                        }
+                        table.table2 tbody td {
+                          font-size: 14px;
+                          font-weight: normal;
+                          color: #21345F;
+                        }
+                        table.table2 td:nth-child(even) {
+                          background: #ECEEF2;
+                        }
+                        table.table2 thead {
+                         /* border-bottom: 6px solid #FFFFFF;*/
+
+                          background: #FFFFFF;
+                        }
+                        table.table2 thead th {
+                          font-size: 15px;
+                          font-weight: bold;
+                          color: #FFFFFF;
+
+                          background: #F9AB5A;
+                          text-align: center;
+                         /* border: 6px solid #fff;*/
+                          border-radius: 16px !important;
+                        }
+                        table.table2 thead th:first-child {
+                          border-left: none;
+                        }
+
+                        table.table2 tfoot td {
+                          font-size: 14px;
+                        }
+                        table.table2 tfoot .links {
+                          text-align: right;
+                        }
+                        table.table2 tfoot .links a{
+                          display: inline-block;
+                          background: #1C6EA4;
+                          color: #FFFFFF;
+                          padding: 2px 8px;
+                          border-radius: 5px;
+                        }
+
+                        table.table2 > tbody > tr > th{
+                           background: #F0EDFE;
+                            color: #21345F;
+                            text-align: center;
+                        }
+                        table.table3 {
+                          background-color: #FEFEFE;
+                          width: 100%;
+                          text-align: center;
+                          border-collapse: collapse;
+                        }
+                        table.table3 td, table.table3 th {
+                          padding: 10px 2px;
+                          min-width: 70px;
+                          
+                          white-space: nowrap;
+                        }
+                        table.table3 tbody td {
+                          font-size: 14px;
+                          color: #21345F;
+                        }
+                        table.table3 tr:nth-child(even) {
+                          background: #FEFAEE;
+                        }
+                        table.table3 thead {
+                          background: #FFFFFF;
+                          background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 66%, #FFFFFF 100%);
+                          background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 66%, #FFFFFF 100%);
+                          background: linear-gradient(to bottom, #ffffff 0%, #ffffff 66%, #FFFFFF 100%);
+                          border-bottom: 1px solid #ECEEF2;
+                        }
+                        table.table3 thead th {
+                          font-size: 15px;
+                          font-weight: bold;
+                          color: #21345F;
+                          text-align: center;
+                        }
+                        table.table3 tfoot td {
+                          font-size: 14px;
+                        }
+                        table.table3 tfoot .links {
+                          text-align: right;
+                        }
+                        table.table3 tfoot .links a{
+                          display: inline-block;
+                          background: #1C6EA4;
+                          color: #FFFFFF;
+                          padding: 2px 8px;
+                          border-radius: 5px;
+                        }
+                         table.table3 tbody td select{
+                           border: 1px solid #ECEEF2;
+                          box-sizing: border-box;
+                          border-radius: 20px;
+                          padding: 5px 12px;
+                          background-color: #fff;
+                        }
+                        *[onclick],a,div[onclick]{
+     cursor:pointer;
+    }
+
+/*** following css added by Devendra for back button ***/
+.back-btn{
+    color:#21345F;
+    text-decoration: none;
+}
+.mb-menu-cross{
+        position: absolute;
+    top: 8px;
+    left: 84%;
+}
+/*** End ***/
+                       
